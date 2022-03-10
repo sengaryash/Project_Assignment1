@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #35434a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffc600 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    padding: 0px 20px;
+    list-style: none;
+    display: inline;
+}
+
+#branding {
+    float: left;
+}
+
+.separate_nav {
+    float: right;
+    margin-top: 37px;
+}
+
+.highlight {
+    color: #ffc600;
+}
+
+header a:hover {
+    color: wheat;
+}
+
+#showcase {
+    min-height: 400px;
+    background-image: url(./showcase.jpg);
+    background-repeat: repeat;
+    background-position: 0 -500px;
+    position: absolute;
+    top: auto;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase p {
+    font-family: 'Sansita Swashed', Arial, Helvetica, sans-serif;
+    color: lightgoldenrodyellow;
+    word-spacing: 0.5em;
+}
+
+#showcase h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#boxes .box {
+    float: left;
+    direction: ltr;
+    width: 20%;
+    text-align: center;
+    padding-top: 420px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    margin: 20;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #ffc600;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+article#main-col {
+    float: inline-start;
+    width: 65%;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+}
+
+.dark {
+    padding: 10px;
+    background: #35434a;
+    color: #fff;
+    margin-bottom: 100px;
+    width: 30%;
+    height: 30%;
+    float: right;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+.page-title {
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.dark1 {
+    padding: 10px;
+    background: #35434a;
+    color: #fff;
+    margin-bottom: 100px;
+    width: 30%;
+    height: 55%;
+    float: right;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+.dark1 h3 {
+    margin-left: 40%;
+}
+
+.dark1 p {
+    margin-left: 20px;
+}
+
+.page_title1 {
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.page_title2 {
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.form1 input {
+    float: inline-end;
+    margin-left: 33%;
+    width: 50%;
+    text-align: center;
+}
+
+.form1 textarea {
+    float: inline-end;
+    margin-left: 33%;
+    width: 50%;
+    text-align: center;
+}
+
+.form1 label {
+    text-align: center;
+    margin-left: 50%;
+}
+
+.button input {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ffc600;
+    margin-left: 50%;
+}
+
+.button input:hover {
+    cursor: pointer;
+    background-color: darkblue;
+}
